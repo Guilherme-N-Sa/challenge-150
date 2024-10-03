@@ -14,7 +14,7 @@ Welcome to my personal repository for coding challenges from **Leetcode**! This 
 
 ## About
 
-As a software engineer with significant experience in cloud, infrastructure, and software architecture, I realized I needed to return to the basics and refine my understanding of algorithms and system design. This repository serves as a public log of my progress and a resource for others following a similar path.
+As a software engineer with significant experience in cloud, infrastructure, and software architecture, I realized I needed to revisit the fundamentals and refine my understanding of algorithms and system design. This repository serves as a public log of my progress and a resource for others following a similar path.
 
 ## Folder Structure
 
@@ -22,6 +22,7 @@ Each coding challenge is organized into its own folder, which contains:
 
 - A markdown file (`problem.md`) with the problem description.
 - Two files, one for the Python solution and one for the JavaScript solution.
+```
   .
   ├── Two_Sum
   │ ├── python.py
@@ -36,7 +37,7 @@ Each coding challenge is organized into its own folder, which contains:
   │ ├── js.js
   │ └── problem.md
   └── README.md
-
+```
 ### Explanation:
 
 - **Two_Sum**, **Longest_Substring_Without_Repeating_Characters**, etc.: Each folder is named after the problem being solved, with underscores instead of spaces.

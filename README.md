@@ -22,7 +22,20 @@ Each coding challenge is organized into its own folder, which contains:
 
 - A markdown file (`problem.md`) with the problem description.
 - Two files, one for the Python solution and one for the JavaScript solution.
-  . ├── Two_Sum │ ├── python.py │ ├── js.js │ └── problem.md ├── Longest_Substring_Without_Repeating_Characters │ ├── python.py │ ├── js.js │ └── problem.md ├── Merge_Intervals │ ├── python.py │ ├── js.js │ └── problem.md ├── README.md
+  .
+  ├── Two_Sum
+  │ ├── python.py
+  │ ├── js.js
+  │ └── problem.md
+  ├── Longest_Substring_Without_Repeating_Characters
+  │ ├── python.py
+  │ ├── js.js
+  │ └── problem.md
+  ├── Merge_Intervals
+  │ ├── python.py
+  │ ├── js.js
+  │ └── problem.md
+  └── README.md
 
 ### Explanation:
 

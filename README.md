@@ -14,7 +14,7 @@ Welcome to my personal repository for coding challenges from **Leetcode**! This 
 
 ## About
 
-As a software engineer with significant experience in cloud, infrastructure, and software architecture, I realized I needed to return to the basics and refine my understanding of algorithms and system design. This repository serves as a public log of my progress and a resource for others following a similar path.
+As a software engineer with significant experience in cloud, infrastructure, and software architecture, I realized I needed to revisit the fundamentals and refine my understanding of algorithms and system design. This repository serves as a public log of my progress and a resource for others following a similar path.
 
 ## Folder Structure
 

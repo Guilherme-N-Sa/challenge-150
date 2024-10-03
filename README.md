@@ -22,6 +22,7 @@ Each coding challenge is organized into its own folder, which contains:
 
 - A markdown file (`problem.md`) with the problem description.
 - Two files, one for the Python solution and one for the JavaScript solution.
+```
   .
   ├── Two_Sum
   │ ├── python.py
@@ -36,7 +37,7 @@ Each coding challenge is organized into its own folder, which contains:
   │ ├── js.js
   │ └── problem.md
   └── README.md
-
+```
 ### Explanation:
 
 - **Two_Sum**, **Longest_Substring_Without_Repeating_Characters**, etc.: Each folder is named after the problem being solved, with underscores instead of spaces.

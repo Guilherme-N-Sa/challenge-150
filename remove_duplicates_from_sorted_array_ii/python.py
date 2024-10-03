@@ -4,11 +4,15 @@ from typing import List
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
 
-        k = 0
+        removed = 0 # Number of elements removed
 
         for i in range(len(nums)):
-            if k == 0 or nums[i] != nums[k - 1]:
-                nums[k] = nums[i]
-                k += 1
+            if i <= 1:
+                continue
 
-        return k
+            nums[i - removed] = nums[i]
+
+            if nums[i] == nums[i - 2 - removed]:
+                removed += 1
+
+        return len(nums) - removed

@@ -4,7 +4,7 @@ from typing import List
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
 
-        removed = 0 # Number of elements removed
+        removed = 0 # Number of elements removed.
 
         for i in range(len(nums)):
             if i <= 1:

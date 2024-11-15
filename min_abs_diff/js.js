@@ -15,18 +15,18 @@ var getMinimumDifference = function (root) {
   let prev = null;
   let min = Infinity;
 
-  const inorder = (node) => {
+  const inOrderTraverse = (node) => {
     if (!node) return;
-    inorder(node.left);
+    inOrderTraverse(node.left);
 
     if (prev !== null) {
       min = Math.min(min, node.val - prev);
     }
     prev = node.val;
 
-    inorder(node.right);
+    inOrderTraverse(node.right);
   };
 
-  inorder(root);
+  inOrderTraverse(root);
   return min;
 };

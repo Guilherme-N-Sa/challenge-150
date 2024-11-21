@@ -4,17 +4,17 @@
  * @return {string}
  */
 var addBinary = function (a, b) {
-  let a_arr = a.split("");
-  let b_arr = b.split("");
+  let aArr = a.split("");
+  let bArr = b.split("");
 
   let resp = "";
   let carry = 0;
 
-  while (a_arr.length > 0 || b_arr.length > 0) {
-    let a_val = a_arr.length > 0 ? a_arr.pop() : "0";
-    let b_val = b_arr.length > 0 ? b_arr.pop() : "0";
+  while (aArr.length > 0 || bArr.length > 0) {
+    let aVal = aArr.length > 0 ? aArr.pop() : "0";
+    let bVal = bArr.length > 0 ? bArr.pop() : "0";
 
-    let sum = +a_val + +b_val + carry;
+    let sum = +aVal + +bVal + carry;
 
     val = sum % 2;
     carry = Math.floor(sum / 2);

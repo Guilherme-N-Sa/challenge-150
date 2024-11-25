@@ -12,20 +12,20 @@ WordDictionary.prototype.addWord = function (word) {
     }
     pointer = pointer[letter];
   }
-  pointer["#"] = true;
+  pointer["##"] = true;
 };
 
 WordDictionary.prototype.search = function (word) {
   function dfs(index, pointer) {
     if (index === word.length) {
-      return pointer["#"] === true;
+      return pointer["##"] === true;
     }
 
     const letter = word[index];
 
     if (letter === ".") {
       for (let key in pointer) {
-        if (key !== "#" && dfs(index + 1, pointer[key])) {
+        if (key !== "##" && dfs(index + 1, pointer[key])) {
           return true;
         }
       }
